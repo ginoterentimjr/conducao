@@ -42,3 +42,7 @@ A skill `/timesheet-facilitador` gera o Excel e publica o treinamento: monta o `
 ## Tela inicial
 
 Filtro por cliente (treinamentos sem cliente aparecem como Gino Terentim) e exibição em cartões ou em lista; a escolha fica guardada no navegador.
+
+## Radar de editais
+
+A pasta `radar/` publica o painel do radar de editais (`ginoterentimjr.github.io/conducao/radar/`): oportunidades do PNCP aderentes ao portfólio, funil, pendências, resultados e retornos. Usa a mesma conexão desta página (token no navegador) e lê a pasta `radar-editais/` do repositório privado de dados; grava apenas `radar-editais/acompanhamento.json`.
